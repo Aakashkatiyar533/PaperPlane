@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded",function() {
     console.log(k,incr); 
     incr+=1;
 		if(incr > quotes.length)
-      {alert('Thank You for visiting, Thoughts are done for the day.');
+      {console.log(hi);alert('Thank You for visiting, Thoughts are done for the day.');
       document.getElementById("generateButton").style.display = 'none';}
 		else
 		newQuote(k);	
