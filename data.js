@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded",function() {
 		k=shuffledID[incr];
     console.log(k,incr); 
     incr+=1;
-		if(incr > 17)
+		if(incr > quotes.length)
       document.getElementById("generateButton").style.display = 'none';
 		else
 		newQuote(k);	
