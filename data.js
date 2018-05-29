@@ -73,16 +73,19 @@ document.addEventListener("DOMContentLoaded",function() {
 	shuffledID = shuffleArray(generatedID);
   
 	function incre(){
-		
-		k=shuffledID[incr];
-    console.log(k,incr); 
-    incr+=1;
-		if(incr > quotes.length)
-      {console.log(hi);alert('Thank You for visiting, Thoughts are done for the day.');
-      document.getElementById("generateButton").style.display = 'none';}
-		else
-		newQuote(k);	
+	k=shuffledID[incr];
+    	console.log(k,incr); 
+    	incr+=1;
+	if(incr > quotes.length)
+      	{	
+	 console.log(hi);
+	 confirm("Thoughts are done for the day");
+      	 document.getElementById("generateButton").style.display = 'none';
 	}
+	else
+	 newQuote(k);	
+	}
+	
 	function newQuote(e) {
 		 document.getElementById("id").innerHTML=quotes[e].id; //for showing randomness
   		 document.getElementById("quote").innerHTML= quotes[e].quote;
