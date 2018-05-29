@@ -78,7 +78,8 @@ document.addEventListener("DOMContentLoaded",function() {
     console.log(k,incr); 
     incr+=1;
 		if(incr > quotes.length)
-      document.getElementById("generateButton").style.display = 'none';
+      {alert('Thank You for visiting, Thoughts are done for the day.');
+      document.getElementById("generateButton").style.display = 'none';}
 		else
 		newQuote(k);	
 	}
