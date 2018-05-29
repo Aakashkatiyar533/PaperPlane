@@ -1,2 +1,2 @@
 # PaperPlane
-Thought of the day
+Thought of the day without repetition.
