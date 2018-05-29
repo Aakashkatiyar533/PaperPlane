@@ -78,7 +78,6 @@ document.addEventListener("DOMContentLoaded",function() {
     	incr+=1;
 	if(incr > quotes.length)
       	{	
-	 console.log(hi);
 	 confirm("Thoughts are done for the day");
       	 document.getElementById("generateButton").style.display = 'none';
 	}
